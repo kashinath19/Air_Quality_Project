@@ -1,57 +1,83 @@
-# Air_Quality_Project
+# 🌍🌫️ Air Quality Project 🏙️📊
+## 📖 Overview
+The Air Quality Project analyzes air pollution trends across major urban cities to raise awareness about public health and inform policy-making. Leveraging a dataset of 10,500 air quality records from 2015 to May 2025, the project demonstrates data cleaning, visualization, and analysis through Excel and an interactive dashboard.
 
-## Overview
-This project analyzes air quality trends in urban cities to raise public health awareness and inform policy decisions. Using a synthetic dataset of 10,500 records, I performed data cleaning, exploratory data analysis (EDA), visualization, and predictive modeling to uncover pollution patterns and forecast future Air Quality Index (AQI) levels. The project demonstrates proficiency in  Excel delivering actionable insights through an interactive dashboard.
+## 🖼️ Dashboard Preview
 
-## Dataset
-The dataset, air_quality_dataset.csv, contains 10,500 rows and 10 columns, including:
+## 📂 Dataset
+The dataset, air_quality_dataset.xlsx, contains:
 
-Date, City, AQI, PM2.5, PM10, CO, NO2, SO2, O3, Temperature.
-It simulates air quality data for cities like Delhi, Mumbai, New York, London, and Tokyo from 2015 to May 2025.
-Data Quality Issues: Includes 500 duplicates, 10% null values in PM2.5, NO2, and Temperature, mixed date formats (e.g., "YYYY-MM-DD" vs. "DD/MM/YYYY"), typos in City (e.g., "delhi" vs. "Delhi"), and invalid values (e.g., negative AQI).
+Columns: Date, City, AQI, PM2.5, PM10, CO, NO2, SO2, O3, Temperature.
 
-## Objectives
-Clean and preprocess messy air quality data for analysis.
-Analyze pollution trends across cities, identifying high-risk areas and seasonal patterns.
-Visualize findings through an interactive  dashboard.
-Predict future AQI levels  to support public health initiatives.
+Simulates air quality trends for cities such as Delhi, Mumbai, New York, London, and Tokyo.
 
-## Tools and Technologies
+Data Quality Issues:
 
-Excel : Data cleaning, EDA and transformation (e.g., handling nulls, removing duplicates), Summary statistics and pivot tables, Interactive dashboard creation.
+500 duplicates.
 
+10% null values in PM2.5, NO2, and Temperature.
 
-## Key Features
-Data Cleaning:
-Removed 500 duplicates .
-Imputed 10% null values in PM2.5 and NO2 .
-Standardized Date formats and corrected typos in City.
-Exploratory Data Analysis (EDA):
-Identified Delhi as the most polluted city with an average AQI of 180.
-Found strong correlations between PM2.5 and low temperatures (correlation coefficient: 0.75).
+Mixed date formats (e.g., "YYYY-MM-DD" vs. "DD/MM/YYYY").
 
-## Visualization:
-Built a  dashboard with:
-Bar chart: Average AQI by city.
-Heatmap: PM2.5 levels across months.
-Slicers: Filter by year and city.
+Typos in City (e.g., "delhi" vs. "Delhi").
 
-## Project Structure
-generate_air_quality_dataset.py: Python script to create the synthetic dataset.
-air_quality_dataset.csv: Synthetic dataset with 10,500 rows.
-air_quality_analysis.ipynb: Jupyter Notebook with data cleaning, EDA, and predictive modeling.
-air_quality_dashboard.pbix: Power BI file containing the interactive dashboard.
-screenshots/: Folder with dashboard and chart screenshots.
+Invalid values (e.g., negative AQI).
 
-## How to Use
-Collect Dataset:
-Collect the air_quality_dataset.csv from Kaggle.
-Explore Analysis:
-Open air_quality_analysis.csv in Excel to view data cleaning, EDA, and modeling steps.
+## 🎯 Objectives
+ 🧹 Clean and preprocess messy air quality data.
 
-## Problems Identified, Tools Used, and Achieved
-Problems Identified: Handled 500 duplicates, 10% null values, mixed date formats, and invalid AQI values (e.g., negative AQI) using Excel.
-Tools Used:  excel is used for data cleaning ,preprocessing, summaries, and  for visualization.
-Achieved: Delivered a  dashboard. 
+ 📊 Analyze pollution trends across cities, highlighting seasonal patterns and high-risk zones.
 
+ 🎨 Visualize findings in an interactive dashboard.
+
+ 🔮 Forecast future AQI levels to support public health initiatives.
+
+## 🛠️ Tools and Technologies
+## Excel: 
+🖊️ Used for data cleaning, transformation, EDA, and dashboard creation.
+
+## ✨ Features
+## 🧹 Data Cleaning
+Removed 500 duplicates.
+
+Imputed null values for PM2.5 and NO2.
+
+Standardized date formats and fixed city typos.
+
+## 📊 Exploratory Data Analysis (EDA)
+Identified Delhi as the most polluted city (average AQI: 180).
+
+Found strong correlations between PM2.5 levels and low temperatures (correlation coefficient: 0.75).
+
+## 🎨 Dashboard Highlights
+Bar Charts: Show average AQI by city and pollutant distribution.
+
+Heatmap: Displays PM2.5 levels across months.
+
+Interactive Filters: Allow slicing data by year and city.
+
+## 🏗️ Project Structure
+Air_Quality_Project_Dashboard.png: Visualization of the interactive dashboard.
+
+air_quality_dataset.xlsx: Dataset used for the analysis.
+
+## 📖 How to Use
+## 📥 Download Dataset: 
+Clone this repository and open the file air_quality_dataset.xlsx in Excel.
+
+## 🖊️ Explore the Dashboard: Use Air_Quality_Project_Dashboard.png as a reference to replicate or analyze the insights.
+
+## 🧗 Challenges Overcome
+Fixed invalid AQI values (e.g., negatives).
+
+Resolved mixed date formats.
+
+Delivered an insightful and interactive dashboard.
+
+## 🔮 Future Improvements
+Add predictive analytics for forecasting AQI trends.
+
+Integrate real-time data streams for up-to-date insights.
+
+Enhance analysis by including more environmental factors (e.g., wind speed).
 
